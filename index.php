@@ -1,2 +1,2 @@
 <?php
-echo "Hello พณิตา I am line bot demo";
+echo "Hello I am line panita super boss of d-sci";
