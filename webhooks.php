@@ -17,8 +17,8 @@ if (!is_null($events['events'])) {
 		// Reply only when message sent is in 'text' format
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
-			$text = $event['source']['userId'];
-			
+			//$text = $event['source']['userId'];
+			$text = $event['source']['userName'];
 			//$text = $event['source']['display-name'];
 			// $profile = $res->getJSONDecodedBody();
    			// $displayName = $profile['displayName'];
